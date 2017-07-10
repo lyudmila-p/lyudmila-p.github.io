@@ -1,0 +1,85 @@
+body
+{
+	overflow:auto; height:100%; width:750px; margin:0 auto; padding:0; background:#fff;
+}
+/*Описание заголовка*/
+header
+{
+	display:block; width:748px; height:130px; padding:0; margin:0; background-color:#ede0ad;
+}
+header img
+{
+	margin:0 11px; float:left;
+}
+header h1
+{
+	font-size:32px; margin:0; color:#983a05;
+}
+/*Описание навигации*/
+nav
+{
+	width:750px;
+}
+ul
+{
+	display:table; width:748px; padding:0; margin:0;
+}
+li
+{
+	display:table-cell; background-color:#cc3341; background: linear-gradient(to top, #cc3341, #983a05);
+}
+li a
+{
+	display:block; color:#ede0ad; text-decoration:none; padding:4px 12px; text-align:center;
+}
+li a:hover
+{
+	background-color:#ede0ad; color:#692905;  background: linear-gradient(to top, #983a05 0%, #ede0ad 45%);
+}
+/*Описание основного содержимого*/
+.content
+{   
+	padding:5px 0; width:524px; height:auto; float:left;
+}
+.content tr
+{
+	text-align:center;
+}
+.content h4
+{
+	font-size:16px; margin:0; color:#983a05;
+}
+/*Описание сайдбара*/
+aside
+{
+	background-color:#fff; margin:0; padding:0; width:220px; float:right;
+}
+aside h2
+{
+	font-size:24px; margin:0; padding:15px 0 0 5px; color:#983a05; 
+}
+aside ul
+{
+	width:220px; padding:0;
+}
+aside li
+{
+	background-color:#cc3341; display:block; margin:2px 2px 0 2px;
+}
+aside li a
+{
+	display:block; color:#ede0ad; text-decoration:none;
+}
+aside li a:hover
+{
+	background-color:#ede0ad; color:#692905;
+}
+/*Описание подвала*/
+footer
+{
+	display:block; width:704px; background-color:#ede0ad; margin:0; color:#983a05; padding:22px; clear:both;
+}
+time
+{
+	float:right;
+}
